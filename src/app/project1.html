@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cards</title>
+    
+</head>
+
+<body>
+  <style>
+    body{
+    background-color: rgba(128, 128, 128, 0.926);   
+    padding-left:500px;
+    margin: 50px;
+    }
+    .cards{
+      display:flex;
+        padding:10px 15px 10px 25px;
+        width:600px;
+        border-radius:5px;
+        font-size:16px;
+        color:rgba(139, 3, 141, 0.859);
+        background-color: white;
+        margin:25px;
+        justify-content: space-evenly;
+    
+      }
+      .date{
+        width:20%;
+        padding:2%;
+        line-height:0.5px;
+      }
+      .info{
+        width:60%;
+        line-height:25px;
+      }
+    
+       .cost{
+        line-height: 2px;
+        
+        
+      }
+      
+      button{
+        background-color:rgb(221, 10, 10);
+        color:white;
+        border-radius:5px;
+        border:none;
+        padding:4px;
+      }
+      p.num{
+        font-weight:bolder;
+        font-size: 50px;
+      }
+      p.month{
+        font-size:20px;
+        padding-right:10px;
+        margin: 10px;
+      }
+      span.nine{
+        font-size:16px;
+        padding:10px;
+        font-weight:bolder;
+      }
+      .time{
+        padding-right:50px 25px;
+      }
+      p.pay{
+        color: orangered;
+      }
+      p.rupee{
+        font-weight: bolder;
+        font-size:25px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+      }
+      img{
+        width:25px;
+        height:24px;
+        padding-left:5px;
+      }
+    .nine{
+      height: 20px;
+      font-weight: bolder;
+    }
+    
+  </style>
+  <mat-card>
+  <mat-card class="cards">
+    <mat-card-group>
+      <mat-card-subtitle class="date">
+        <p class="month">Jan</p>
+          <p class="num">17</p>
+          <p class="month">2023</p>
+          </mat-card-subtitle>
+          </mat-card-group>
+      </mat-card-subtitle>
+      <mat-card-group>
+      <mat-card-content class="info">
+        <h2 class="head">haircut</h2>
+          <h2 class="head">barber style cut</h2>
+      </mat-card-content>
+      <mat-card-content>
+        <span>booked by:</span>
+          <span><img src="../assets/man.png" alt=""> john doe </span>
+          <img src="../assets/phone.png" alt="">
+      </mat-card-content><br>
+      <mat-card-group>
+      <mat-card-content class="time">
+        <span class="nine"><img src="../assets/clock.png" alt="">9:00 AM</span>
+      </mat-card-content>
+      </mat-card-group><br>
+      <mat-card-action class="button">
+        <button>premium</button> 
+      </mat-card-action>
+    </mat-card-group>
+    <mat-card-group>
+      <mat-card-action class="cost">
+        <p>Est cost</p>
+          <p class="rupee">$175</p>
+          <p class="pay">un paid</p>
+      </mat-card-action>
+    </mat-card-group>
+  </mat-card>
+  <mat-card>
+    <mat-card class="cards">
+      <mat-card-group>
+        <mat-card-subtitle class="date">
+          <p class="month">Jan</p>
+            <p class="num">16</p>
+            <p class="month">2023</p>
+            </mat-card-subtitle>
+            </mat-card-group>
+        </mat-card-subtitle>
+        <mat-card-group>
+        <mat-card-content class="info">
+          <h2 class="head">haircut</h2>
+        </mat-card-content>
+        <mat-card-content>
+          <span>booked by:</span>
+            <span><img src="../assets/man.png" alt=""> john doe </span>
+            <img src="../assets/phone.png" alt="">
+        </mat-card-content><br>
+        <mat-card-group>
+        <mat-card-content class="time">
+          <span class="nine"><img src="../assets/clock.png" alt="">9:00 AM</span>
+        </mat-card-content>
+        </mat-card-group><br>
+        <mat-card-action class="button">
+          <button>premium</button> 
+        </mat-card-action>
+      </mat-card-group>
+      <mat-card-group>
+        <mat-card-action class="cost">
+          <p>Est cost</p>
+            <p class="rupee">$100</p>
+            <p class="pay">un paid</p>
+        </mat-card-action>
+      </mat-card-group>
+    </mat-card>
+    <mat-card class="cards">
+      <mat-card-group>
+        <mat-card-subtitle class="date">
+          <p class="month">Jan</p>
+            <p class="num">17</p>
+            <p class="month">2023</p>
+            </mat-card-subtitle>
+            </mat-card-group>
+        </mat-card-subtitle>
+        <mat-card-group>
+        <mat-card-content class="info">
+          <h2 class="head">haircut</h2>
+        </mat-card-content>
+        <mat-card-content>
+          <span>booked by:</span>
+            <span><img src="../assets/man.png" alt=""> john doe </span>
+            <img src="../assets/phone.png" alt="">
+        </mat-card-content><br>
+        <mat-card-group>
+        <mat-card-content class="time">
+          <span class="nine"><img src="../assets/clock.png" alt="">9:00 AM</span>
+        </mat-card-content>
+        </mat-card-group><br>
+        <mat-card-action class="button">
+          <button>premium</button> 
+        </mat-card-action>
+      </mat-card-group>
+      <mat-card-group>
+        <mat-card-action class="cost">
+          <p>Est cost</p>
+            <p class="rupee">$100</p>
+            <p class="pay">un paid</p>
+        </mat-card-action>
+      </mat-card-group>
+    </mat-card>
+    <!-- <mat-card-group class="cards">
+    <mat-card-content>
+      <p class="month">Jan</p>
+          <p class="num">17</p>
+          <p class="month">2023</p>
+    </mat-card-content>
+  </mat-card-group> -->
+     <!-- <div class="cards">
+        <div class="date">
+          <p class="month">Jan</p>
+          <p class="num">17</p>
+          <p class="month">2023</p>
+        </div>
+        
+        <div class="info">
+          <h2 class="head">haircut</h2>
+          <h2 class="head">barber style cut</h2>
+        <div>
+          <span>booked by:</span>
+          <span><img src="./assets/man.png" alt=""> john doe </span>
+          <img src="./assets/phone.png" alt="">
+        </div>
+        <div class="time">
+         <span class="nine"><img src="./assets/clock.png" alt="">9:00 AM</span>
+        </div>
+       <div class="button">
+         <button>premium</button>     
+         </div>
+          </div>
+        <div class="cost"> 
+        <p>Est cost</p>
+          <p class="rupee">$175</p>
+          <p class="pay">un paid</p>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="date">
+          <p class="month">Jan</p>
+          <p class="num">16</p>
+          <p class="month">2023</p>
+        </div>
+        
+        <div class="info">
+          <h2 class="head">haircut</h2>
+        <div>
+          <span>booked by:</span>
+          <span><img src="./assets/man.png" alt=""> john doe </span>
+          <img src="./assets/phone.png" alt="">
+        </div>
+        <div class="time">
+         <span class="nine"><img src="./assets/clock.png" alt="">9:00 AM</span>
+        </div>
+       <div class="button">
+         <button>premium</button>     
+         </div>
+          </div>
+        <div class="cost"> 
+        <p>Est cost</p>
+          <p class="rupee">$100</p>
+          <p class="pay">un paid</p>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="date">
+          <p class="month">Jan</p>
+          <p class="num">17</p>
+          <p class="month">2023</p>
+        </div>
+        
+        <div class="info">
+          <h2 class="head">haircut</h2>
+        <div>
+          <span>booked by:</span>
+          <span><img src="./assets/man.png" alt=""> john doe </span>
+          <img src="./assets/phone.png" alt="">
+        </div>
+        <div class="time">
+         <span class="nine"><img src="./assets/clock.png" alt="">9:00 AM</span>
+        </div>
+       <div class="button">
+         <button>premium</button>     
+         </div>
+          </div>
+        <div class="cost"> 
+        <p>Est cost</p>
+          <p class="rupee">$100</p>
+          <p class="pay">un paid</p>
+        </div>
+        
+      </div> -->
+</body>
+</html> 

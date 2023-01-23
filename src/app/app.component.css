@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body{
+  background-color: rgba(128, 128, 128, 0.926);  
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  padding: 250px;
+  
+  }
+  .cards{
+    width: 50%;
+    display:flex;
+    align-items: center;
+      padding:20px 25px;
+      width:600px;
+      border-radius:15px;
+      font-size:16px;
+      color:rgba(139, 3, 141, 0.859);
+      background-color: white;
+      margin-top: 30px;
+      flex-direction:row;
+
+    }
+    .head {
+      margin-bottom: 10px;
+    }
+    .date{
+      width:20%;
+      text-align: center;
+    }
+    .info{
+      width:60%;
+    }
+    .cost{
+      width: 20%;
+      text-align: center;
+    }
+    
+    button{
+      background-color:rgb(221, 10, 10);
+      color:white;
+      border-radius:5px;
+      border:none;
+      padding:4px;
+    }
+    .num{
+      font-weight:bolder;
+      margin: 5px 0;
+      font-size: 50px;
+      text-align: center;
+    }
+    .month{
+      font-size:20px;
+    }
+    .nine{
+      font-size:16px;
+      padding:10px;
+      font-weight:bolder;
+    }
+    .time{
+      padding-right:50px 25px;
+      display: flex;
+      margin: 10px 0;
+      align-items: center;
+    }
+    .time img{
+      margin-right: 10px;
+    }
+    .pay{
+      color: orangered;
+    }
+    .rupee{
+      font-weight: bolder;
+      font-size:25px;
+      margin: 3px 0;
+    }
+    img{
+      width:25px;
+      height:24px;
+      padding-left:5px;
+    }
+  .nine{
+    height: 20px;
+    font-weight: bolder;
+  }
+  .info-booked{
+    display: flex;    
+    align-items: center;  
+  }
+  .info-booked img {
+    margin-left: 10px;
+  }
+  
